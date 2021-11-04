@@ -8,9 +8,8 @@ Here are the demo :
 
 for spam :
 
-<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:52.78%;position:relative;"><iframe width="360" height="190" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/5sx3bz"></iframe></div><p><a href="https://imgflip.com/gif/5sx3bz">via Imgflip</a></p></div>
+<a href="https://imgflip.com/gif/5sx48e"><img src="https://i.imgflip.com/5sx48e.gif"></a>
 
 for safe:
 
-<a href="https://imgflip.com/gif/5sx3jz"><a/>
-
+<a href="https://imgflip.com/gif/5sx3jz"><img src="https://i.imgflip.com/5sx3jz.gif"></a>
