@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!xjckjf-)r4e-&v4evhgcz3p55og3!v!($b=2#53u5ik2nbkj-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['spam-sms-detection-django.herokuapp.com']
 
 
 # Application definition
