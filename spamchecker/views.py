@@ -1,7 +1,6 @@
 from django.shortcuts import render
 import pickle
 import nltk
-nltk.download('punkt')
 import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
@@ -24,6 +23,7 @@ def home(request):
 
 def predict(request):
     def transform_text(text):
+        punct = "!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~"
         text = nltk.word_tokenize(text)
         
         y = []
@@ -42,7 +42,7 @@ def predict(request):
         y.clear()
 
         for i in text:
-            if i not in stopwords.words('english') and i not in string.punctuation:
+            if i not in stopwords.words('english') and i not in punct:
                 y.append(i)
 
         text =  y[:]
